@@ -9,12 +9,14 @@
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/teal_200"
         android:id="@+id/toolbar1">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Specific News"
-            android:textSize="20sp"/>
+            android:text="Detailed News"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
     </androidx.appcompat.widget.Toolbar>
 
     <WebView

@@ -9,13 +9,12 @@
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#fdf"
+        android:background="@color/teal_200"
         android:id="@+id/toolbar">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="News Feed"
-
             android:textStyle="bold"
             android:textSize="20sp"/>
     </androidx.appcompat.widget.Toolbar>
@@ -28,8 +27,9 @@
         android:layout_below="@id/toolbar"
         app:tabIndicatorAnimationMode="fade"
         app:tabIndicatorColor="#03A9F4"
+        android:background="@color/teal_200"
         app:tabMode="auto"
-        app:tabSelectedTextColor="#F3B8B8"
+        app:tabSelectedTextColor="@color/white"
         app:tabTextColor="@color/black">
 
 
